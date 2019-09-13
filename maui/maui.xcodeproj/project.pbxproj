@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42B2C16232B74030047D98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B2C15232B74030047D98E /* AppDelegate.swift */; };
+		B42B2C18232B74030047D98E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B42B2C17232B74030047D98E /* art.scnassets */; };
+		B42B2C1A232B74030047D98E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B2C19232B74030047D98E /* ViewController.swift */; };
+		B42B2C1D232B74030047D98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42B2C1B232B74030047D98E /* Main.storyboard */; };
+		B42B2C1F232B74040047D98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42B2C1E232B74040047D98E /* Assets.xcassets */; };
+		B42B2C22232B74040047D98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42B2C20232B74040047D98E /* LaunchScreen.storyboard */; };
+		B42B2C2D232B74040047D98E /* mauiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B2C2C232B74040047D98E /* mauiTests.swift */; };
+		B42B2C38232B74040047D98E /* mauiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B2C37232B74040047D98E /* mauiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B42B2C29232B74040047D98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42B2C0A232B74030047D98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42B2C11232B74030047D98E;
+			remoteInfo = maui;
+		};
+		B42B2C34232B74040047D98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42B2C0A232B74030047D98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42B2C11232B74030047D98E;
+			remoteInfo = maui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B42B2C12232B74030047D98E /* maui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42B2C15232B74030047D98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42B2C17232B74030047D98E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		B42B2C19232B74030047D98E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B42B2C1C232B74030047D98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42B2C1E232B74040047D98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42B2C21232B74040047D98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B42B2C23232B74040047D98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42B2C28232B74040047D98E /* mauiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mauiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42B2C2C232B74040047D98E /* mauiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mauiTests.swift; sourceTree = "<group>"; };
+		B42B2C2E232B74040047D98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42B2C33232B74040047D98E /* mauiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mauiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42B2C37232B74040047D98E /* mauiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mauiUITests.swift; sourceTree = "<group>"; };
+		B42B2C39232B74040047D98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42B2C0F232B74030047D98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C25232B74040047D98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C30232B74040047D98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B42B2C09232B74030047D98E = {
+			isa = PBXGroup;
+			children = (
+				B42B2C14232B74030047D98E /* maui */,
+				B42B2C2B232B74040047D98E /* mauiTests */,
+				B42B2C36232B74040047D98E /* mauiUITests */,
+				B42B2C13232B74030047D98E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B42B2C13232B74030047D98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42B2C12232B74030047D98E /* maui.app */,
+				B42B2C28232B74040047D98E /* mauiTests.xctest */,
+				B42B2C33232B74040047D98E /* mauiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42B2C14232B74030047D98E /* maui */ = {
+			isa = PBXGroup;
+			children = (
+				B42B2C15232B74030047D98E /* AppDelegate.swift */,
+				B42B2C17232B74030047D98E /* art.scnassets */,
+				B42B2C19232B74030047D98E /* ViewController.swift */,
+				B42B2C1B232B74030047D98E /* Main.storyboard */,
+				B42B2C1E232B74040047D98E /* Assets.xcassets */,
+				B42B2C20232B74040047D98E /* LaunchScreen.storyboard */,
+				B42B2C23232B74040047D98E /* Info.plist */,
+			);
+			path = maui;
+			sourceTree = "<group>";
+		};
+		B42B2C2B232B74040047D98E /* mauiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B42B2C2C232B74040047D98E /* mauiTests.swift */,
+				B42B2C2E232B74040047D98E /* Info.plist */,
+			);
+			path = mauiTests;
+			sourceTree = "<group>";
+		};
+		B42B2C36232B74040047D98E /* mauiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B42B2C37232B74040047D98E /* mauiUITests.swift */,
+				B42B2C39232B74040047D98E /* Info.plist */,
+			);
+			path = mauiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42B2C11232B74030047D98E /* maui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42B2C3C232B74040047D98E /* Build configuration list for PBXNativeTarget "maui" */;
+			buildPhases = (
+				B42B2C0E232B74030047D98E /* Sources */,
+				B42B2C0F232B74030047D98E /* Frameworks */,
+				B42B2C10232B74030047D98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maui;
+			productName = maui;
+			productReference = B42B2C12232B74030047D98E /* maui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42B2C27232B74040047D98E /* mauiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42B2C3F232B74040047D98E /* Build configuration list for PBXNativeTarget "mauiTests" */;
+			buildPhases = (
+				B42B2C24232B74040047D98E /* Sources */,
+				B42B2C25232B74040047D98E /* Frameworks */,
+				B42B2C26232B74040047D98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42B2C2A232B74040047D98E /* PBXTargetDependency */,
+			);
+			name = mauiTests;
+			productName = mauiTests;
+			productReference = B42B2C28232B74040047D98E /* mauiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B42B2C32232B74040047D98E /* mauiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42B2C42232B74040047D98E /* Build configuration list for PBXNativeTarget "mauiUITests" */;
+			buildPhases = (
+				B42B2C2F232B74040047D98E /* Sources */,
+				B42B2C30232B74040047D98E /* Frameworks */,
+				B42B2C31232B74040047D98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42B2C35232B74040047D98E /* PBXTargetDependency */,
+			);
+			name = mauiUITests;
+			productName = mauiUITests;
+			productReference = B42B2C33232B74040047D98E /* mauiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42B2C0A232B74030047D98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = fly;
+				TargetAttributes = {
+					B42B2C11232B74030047D98E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B42B2C27232B74040047D98E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B42B2C11232B74030047D98E;
+					};
+					B42B2C32232B74040047D98E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B42B2C11232B74030047D98E;
+					};
+				};
+			};
+			buildConfigurationList = B42B2C0D232B74030047D98E /* Build configuration list for PBXProject "maui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42B2C09232B74030047D98E;
+			productRefGroup = B42B2C13232B74030047D98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42B2C11232B74030047D98E /* maui */,
+				B42B2C27232B74040047D98E /* mauiTests */,
+				B42B2C32232B74040047D98E /* mauiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42B2C10232B74030047D98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B2C18232B74030047D98E /* art.scnassets in Resources */,
+				B42B2C22232B74040047D98E /* LaunchScreen.storyboard in Resources */,
+				B42B2C1F232B74040047D98E /* Assets.xcassets in Resources */,
+				B42B2C1D232B74030047D98E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C26232B74040047D98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C31232B74040047D98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42B2C0E232B74030047D98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B2C1A232B74030047D98E /* ViewController.swift in Sources */,
+				B42B2C16232B74030047D98E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C24232B74040047D98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B2C2D232B74040047D98E /* mauiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42B2C2F232B74040047D98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B2C38232B74040047D98E /* mauiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42B2C2A232B74040047D98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42B2C11232B74030047D98E /* maui */;
+			targetProxy = B42B2C29232B74040047D98E /* PBXContainerItemProxy */;
+		};
+		B42B2C35232B74040047D98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42B2C11232B74030047D98E /* maui */;
+			targetProxy = B42B2C34232B74040047D98E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B42B2C1B232B74030047D98E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42B2C1C232B74030047D98E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B42B2C20232B74040047D98E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42B2C21232B74040047D98E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42B2C3A232B74040047D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42B2C3B232B74040047D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42B2C3D232B74040047D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = maui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.maui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B42B2C3E232B74040047D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = maui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.maui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B42B2C40232B74040047D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = mauiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.mauiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maui.app/maui";
+			};
+			name = Debug;
+		};
+		B42B2C41232B74040047D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = mauiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.mauiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maui.app/maui";
+			};
+			name = Release;
+		};
+		B42B2C43232B74040047D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = mauiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.mauiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maui;
+			};
+			name = Debug;
+		};
+		B42B2C44232B74040047D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S3H69SBV;
+				INFOPLIST_FILE = mauiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.mauiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42B2C0D232B74030047D98E /* Build configuration list for PBXProject "maui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42B2C3A232B74040047D98E /* Debug */,
+				B42B2C3B232B74040047D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42B2C3C232B74040047D98E /* Build configuration list for PBXNativeTarget "maui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42B2C3D232B74040047D98E /* Debug */,
+				B42B2C3E232B74040047D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42B2C3F232B74040047D98E /* Build configuration list for PBXNativeTarget "mauiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42B2C40232B74040047D98E /* Debug */,
+				B42B2C41232B74040047D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42B2C42232B74040047D98E /* Build configuration list for PBXNativeTarget "mauiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42B2C43232B74040047D98E /* Debug */,
+				B42B2C44232B74040047D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42B2C0A232B74030047D98E /* Project object */;
+}
